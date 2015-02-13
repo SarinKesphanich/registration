@@ -25,12 +25,12 @@
 </style>
 </head>
 <body>
-<h1>Register here!</h1>
-<p>Fill in your name and email address, then click <strong>Submit</strong> to register.</p>
+<h1>ลงทะเบียนที่นี่!</h1>
+<p>กรุณาบันทึกอยู่และอีเมล จากนั้นเลือกปุ่ม <strong>บันทึก</strong> เพื่อลงทะเบียน.</p>
 <form method="post" action="index.php" enctype="multipart/form-data" >
-    Name  <input type="text" name="name" id="name"/></br>
-Email <input type="text" name="email" id="email"/></br>
-      <input type="submit" name="submit" value="Submit" />
+    ชื่อ-นามสกุล  <input type="text" name="name" id="name"/></br>
+อีเมล <input type="text" name="email" id="email"/></br>
+      <input type="submit" name="submit" value="บันทึก" />
 </form>
 <?php
     // DB connection info
